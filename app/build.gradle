@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "quartet.allegro"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    jcenter()
+
+    mavenCentral()
+
+    maven {
+        url "https://jitpack.io"
+    }
+
+    maven {
+        url 'http://dl.bintray.com/amulyakhare/maven'
+    }
+
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:22.1.1'
+    compile "com.android.support:appcompat-v7:22.0.+"
+    compile 'com.android.support:support-v13:22.1.1'
+    compile 'com.android.support:recyclerview-v7:+'
+    compile 'com.android.support:cardview-v7:21.+'
+
+    compile 'com.sothree.slidinguppanel:library:3.0.0'
+    compile 'com.github.satyan:sugar:1.3'
+    compile 'com.ikimuhendis:ldrawer:0.1'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+
+    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.flaviofaria:kenburnsview:1.0.6'
+
+    compile ('com.github.florent37:materialviewpager:1.0.5@aar'){
+        transitive = true
+    }
+
+}

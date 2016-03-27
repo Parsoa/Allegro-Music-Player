@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_open_artist"
+        android:title="@string/action_open_artist"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_open_album"
+        android:title="@string/action_open_album"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_clear_queue"
+        android:title="@string/action_clear_queue"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+
+</menu><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/menu/now_playing_menu.xml -->

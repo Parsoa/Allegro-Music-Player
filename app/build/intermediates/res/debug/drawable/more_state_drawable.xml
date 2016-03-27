@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ic_more_vert_black_48dp" />
+    <item android:state_focused="true"
+        android:drawable="@drawable/ic_more_vert_black_48dp" />
+    <item android:drawable="@drawable/ic_more_vert_white_48dp" />
+</selector><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/drawable/more_state_drawable.xml -->

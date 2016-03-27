@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.florent37.materialviewpager.MaterialViewPagerImageHeader
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/materialviewpager_imageHeader"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:scaleType="centerCrop" /><!-- From: file:/Users/florentchampigny/Documents/MaterialViewPager/materialviewpager/src/main/res/layout/material_view_pager_default_header.xml --><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.github.florent37/materialviewpager/1.0.5/res/layout/material_view_pager_default_header.xml -->

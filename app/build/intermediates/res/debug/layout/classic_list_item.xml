@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/artwork_container"
+        android:layout_width="@dimen/list_item_classic_art_dims"
+        android:layout_height="@dimen/list_item_classic_art_dims"
+        android:layout_gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/big_text"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/old_list_item_main_text"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="big text"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.mobsandgeeks.ui.TypefaceTextView
+                android:id="@+id/small_text_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="small caption"
+                android:textColor="@color/old_list_item_caption_text"
+                geekui:customTypeface="irsans.ttf"
+                />
+
+            <com.mobsandgeeks.ui.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:text="|"
+                android:textColor="@color/old_list_item_caption_text"
+                geekui:customTypeface="irsans.ttf"
+                />
+
+            <com.mobsandgeeks.ui.TypefaceTextView
+                android:id="@+id/small_text_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="small caption"
+                android:textColor="@color/old_list_item_caption_text"
+                geekui:customTypeface="irsans.ttf"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/more_button"
+        android:background="@drawable/more_icon_selector"
+        android:layout_width="@dimen/classic_list_item_more_button_dims"
+        android:layout_height="@dimen/classic_list_item_more_button_dims"
+        android:focusable="false"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/classic_list_item.xml -->

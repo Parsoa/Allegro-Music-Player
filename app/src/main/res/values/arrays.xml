@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="songs_context_menu">
+        <item>پخش</item>
+        <item>افزودن به پلی‌لیست</item>
+    </string-array>
+
+</resources>

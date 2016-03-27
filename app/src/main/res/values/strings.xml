@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Allegro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="artists">خواننده ها</string>
+    <string name="albums">آلبوم ها</string>
+    <string name="tracks">آهنگ ها</string>
+    <string name="track">آهنگ</string>
+    <string name="album">آلبوم</string>
+    <string name="drawer_open">پلی لیست ها</string>
+    <string name="drawer_close">Allegro</string>
+    <string name="action_clear_queue">پاک کردن صف پخش</string>
+    <string name="action_open_album">مشاهده آلبوم</string>
+    <string name="action_open_artist">مشاهده هنرمند</string>
+    <string name="title_activity_pager">Pager</string>
+    <string name="play_next">پخش بعد از آهنگ فعلی</string>
+    <string name="add_queue">اضافه کردن به نوبت پخش</string>
+    <string name="add_play_list">اضافه کردن به پلی لیست</string>
+    <string name="play">پخش</string>
+
+
+    <string name="lipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+        faucibus consequat orci, ut feugiat elit gravida nec. Maecenas vel nulla vel nisi
+        volutpat tempus. Nunc condimentum molestie augue in mattis. Fusce dignissim eros
+        vel ultricies dignissim. Maecenas mauris tortor, finibus vel semper vitae, mollis
+        tincidunt mauris. Vivamus ac eros euismod neque condimentum tempor sit amet non orci.
+        Integer iaculis libero ac tortor dictum iaculis.
+        Morbi scelerisque purus orci, ut venenatis odio interdum ac.
+        Vivamus scelerisque est sit amet magna accumsan, rutrum aliquet purus porttitor.
+        Nulla dapibus vestibulum nulla sit amet dictum. Donec consectetur ipsum vel elit dapibus,
+        at finibus nibh feugiat. Fusce congue velit pulvinar volutpat porta. Duis felis neque,
+        porttitor quis erat nec, faucibus cursus risus. Duis arcu nibh, porttitor fringilla nulla
+        vel, sollicitudin mollis ex. Sed ac elit eu magna consectetur semper porttitor eu mi.
+        Sed vel aliquet nisl, cursus maximus justo. Vivamus nec tellus eget turpis cursus varius
+        sed eget libero.
+        Nunc ornare scelerisque augue eu gravida. Sed malesuada porttitor cursus.
+        Cras ut nibh id libero facilisis tincidunt. Morbi et semper ex.
+        Etiam a velit mauris. Aliquam porta nulla nulla, ut sollicitudin quam dapibus non.
+        Mauris vitae nibh est. Pellentesque vitae sodales quam. Nulla ornare malesuada tristique.
+        Nullam ullamcorper imperdiet diam, vel laoreet massa venenatis euismod. Donec non neque
+        at tortor ultrices molestie. Proin venenatis rhoncus molestie. Vivamus elementum augue
+        felis, quis tincidunt lorem bibendum quis. Suspendisse ultrices auctor risus, nec facilisis
+        neque suscipit et. Donec ornare vel ex et tempus.
+        Vivamus accumsan volutpat turpis, vel tempor eros tincidunt non. Suspendisse at orci quis
+        sem ornare tincidunt. Phasellus porta, ex et lobortis viverra, purus mi semper felis,
+        ut elementum erat nulla eu mi. Duis ut justo rhoncus, convallis urna sit amet,
+        lacinia metus. Donec quam tellus, blandit id iaculis quis, fermentum id quam.
+        Etiam arcu eros, imperdiet nec justo sit amet, vestibulum tristique felis. Nullam
+        ullamcorper lacus in mi finibus, a tempor ligula elementum. Sed varius
+        egestas sem et ornare. Sed vehicula erat quis orci suscipit, id sodales massa rutrum.
+        Suspendisse eleifend nisi sed neque rhoncus malesuada. Mauris nec quam felis.
+        Cras non eros sem. Praesent mattis mollis felis, non porttitor est tristique ac.
+        Pellentesque at mi maximus, lacinia turpis id, lobortis neque. Integer leo odio,
+        luctus ac justo aliquam, interdum consectetur justo.
+        Mauris urna lorem, tempor non fermentum sit amet, lobortis vitae risus. Nam at odio mauris.
+        In nec cursus elit, vitae porttitor sem. Phasellus dignissim elit id turpis luctus mollis.
+        Phasellus porta erat egestas dui vehicula gravida. Vivamus mollis mauris sed odio
+        sollicitudin placerat. Nulla eu nisi volutpat, facilisis sapien eu, congue elit.
+        Donec pellentesque tellus at metus gravida suscipit. Aliquam et vestibulum augue.
+        Sed ut consequat orci. Praesent leo justo, laoreet et nibh ut, sagittis fringilla lorem.
+        Nunc fringilla justo in libero gravida molestie. Aliquam pellentesque libero eu eros
+        fringilla condimentum. Aenean ac turpis vulputate, rhoncus enim in, viverra turpis.
+        In malesuada nunc arcu, non pharetra quam congue sodales.</string>
+
+    <string name="notification_title">گوشاسم</string>
+    <string name="notification_default_text">هنوز آهنگی نیست</string>
+    <string name="notif_next_label">بعدی</string>
+    <string name="notif_previous_label">قبلی</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="notification_ticker">گوشاسم در حال اجرا</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_material_pager">MaterialPager</string>
+    <string name="drawer_header_main">وارد شوید</string>
+    <string name="drawer_header_caption">فعلا آفلاین هستید</string>
+    <string name="play_lists">پلی‌لیست ها</string>
+    <string name="play_list">پلی‌لیست</string>
+
+    <string name="app_title">آلگرو</string>
+    <string name="now_playing">در حال پخش</string>
+    <string name="default_artist_info">اطلاعاتی یافت نشد</string>
+
+    <string name="add_to_playlist">افزودن به پلی‌لیست</string>
+    <string name="new_playlist">پلی‌لیست جدید</string>
+    <string name="hint_playlist_name">نام پلی‌لیست</string>
+    <string name="form_playlist_name">نام</string>
+
+    <string name="error_playlist_already_exists">خطا! پلی‌لیست دیگری با همین اسم وجود دارد</string>
+    <string name="error_playlist_name_null">لطفا اسم پلی‌لیست را خالی نگذارید</string>
+
+    <string name="menu_item_delete_from_playlist">حذف از پلی‌لیست</string>
+
+    <string name="toast_error_scan_running">اسکن آهنگ های شما هنوز به پایان نرسیده. لطفاً چند لحظه دیگر دوباره تلاش کنید.</string>
+
+    <string name="widget.begin">برای شروع تپ کنید</string>
+
+</resources>

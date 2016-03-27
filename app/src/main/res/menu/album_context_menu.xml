@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_album_play"
+        android:title="@string/play"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_album_add_queue"
+        android:title="@string/add_queue"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_album_add_play_list"
+        android:title="@string/add_play_list"
+        app:showAsAction="always" />
+
+</menu>

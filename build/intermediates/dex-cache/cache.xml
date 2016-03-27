@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.ikimuhendis/ldrawer/0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d3bec8d72ee2aa86e69f66375c31f2161b7bb324">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-04eff076161c2c7c73cfdfa7be567681382b0fa8.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="07e07903922250dabf50c7d131d6fa069a050305">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-72cef1c056d9e37b8f9f9b46f379748cce718ac0.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Android/SDK/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-2150aa429f5fd70c8a4f139640434cf1a2a18570.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.github.florent37/materialviewpager/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ffcdb567942adc7d56383f9416a985654bb2e28">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-70af08184aa05526ad5fdb309aefc97b6b5e3c5d.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-2a2cf8413a08caaebb8687a4b326400a04235fc0.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="611c7708cd3df0d7ae99105d4df5af8eb25c4b32">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-9c28faf7ec52b344cb3cf2e5094829bd67c503e9.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-7d264ac463c4eb9f5d79439fbc536393604c5602.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-6d3a15105117538ee183adf8df13f792da20c903.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/.gradle/caches/modules-2/files-2.1/com.flaviofaria/kenburnsview/1.0.6/65dcd9c03096b73f4740d63cf93d30a692fe52b5/kenburnsview-1.0.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="65dcd9c03096b73f4740d63cf93d30a692fe52b5">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/kenburnsview-1.0.6-3cdbee89c8d9a01a6ac331fb9aa6f0498c878495.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.github.ksoichiro/android-observablescrollview/1.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="256c2cf84542c459927ed4aa5f99a9b47855c071">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-c8026418c7e93dc427a1cb44ac66f548a2459137.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.5/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="12b228574de7977e56e41cbfb385b1463bbdb41a">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-6ce44ad3afcc30bd01543a973fc916babdd65860.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-c299af72db916ae2a8ce40b1eb5033cb96b0f704.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-a61573557fa695e176fbd465558578d905a1edd9.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-0e690941a1649988fcd45efd0de1f9bbcb02b84b.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-b587ed13451e8f06392619f7072306e0908018e2.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="50fd8c7c5556b3516f569f71ed189d61441d59cf">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-967659ced392a92cd84887aabfe740547cf883aa.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fcf32027f88ac0be1b54b16167a30bde06ab6cd1">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-b04bd084f6485ab3ad5b8f04011f538ab3f9d505.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/3.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c1200ab3b93b8f42c0878b00eb79a84c1f112cf7">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-29df74c3a83222c772dc1a239d90b1b756f7018b.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/classes-7de92decd6f5f58d4feb83511e10083b3f107530.jar" />
+    </item>
+    <item
+        jar="/Users/Parsoa/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/build/intermediates/pre-dexed/debug/library-2.4.0-832bddf095977227929428d007cbdb805a39f774.jar" />
+    </item>
+
+</items>

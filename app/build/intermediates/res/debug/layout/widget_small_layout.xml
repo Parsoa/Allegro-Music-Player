@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:src = "@drawable/place_holder_cover"
+        android:id="@+id/widget_album_art_image_view"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/widget_track_name_text_view"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="start"
+                android:text="Tap to begin"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/widget_artist_name_text_view"
+                android:layout_gravity="start"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text=""
+                android:textSize="12sp"
+                android:textColor="@color/textColorPrimary"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_shuffle_white_48dp"
+                android:id="@+id/widget_shuffle_button"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/prev_button_drawable"
+                android:background="@android:color/transparent"
+                android:id="@+id/widget_prev_button"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_play_circle_filled_white_48dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/widget_play_button"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/next_button_drawable"
+                android:background="@android:color/transparent"
+                android:id="@+id/widget_next_button"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_repeat_one_white_48dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/widget_repeat_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/widget_small_layout.xml -->

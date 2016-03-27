@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="false"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height">
+
+
+    <ImageView
+        android:id="@+id/drag_handle"
+        android:background="@drawable/ic_action_menu"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="2dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="13dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/big_text"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/old_list_item_main_text"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="big text"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/small_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="small caption"
+            android:textColor="@color/old_list_item_caption_text"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/more_button"
+        android:background="@drawable/more_icon_selector"
+        android:layout_width="@dimen/classic_list_item_more_button_dims"
+        android:layout_height="@dimen/classic_list_item_more_button_dims"
+        android:layout_gravity="center_vertical" />
+
+</LinearLayout><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/item_fragment_playlists.xml -->

@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_height" >48dp</dimen>
+    <dimen name="list_item_height" >70dp</dimen>
+    <dimen name="list_item_classic_art_dims" >66dp</dimen>
+    <dimen name="classic_list_item_more_button_dims" >36dp</dimen>
+    <dimen name="grid_list_item_more_button_dims" >28dp</dimen>
+    <dimen name="grid_item_caption_height">42dp</dimen>
+    <dimen name="navdrawer_width">300dp</dimen>
+    <dimen name="play_pause_button_dims">36dp</dimen>
+
+    <dimen name="song_name_text_size">16sp</dimen>
+    <dimen name="song_description_text_size">12sp</dimen>
+
+    <dimen name="notification_expanded">128dp</dimen>
+    <dimen name="notification_expanded_artwork">116dp</dimen>
+
+    <dimen name="notification_shrinked">64dp</dimen>
+    <dimen name="notification_shrinked_artwork">60dp</dimen>
+
+    <dimen name="notification_close_button">30dp</dimen>
+
+    <dimen name="notification_compact_textsize_big">15sp</dimen>
+    <dimen name="notification_compact_textsize_small">12sp</dimen>
+
+    <dimen name="notification_expanded_textsize_big">18sp</dimen>
+    <dimen name="notification_expanded_textsize_small">15sp</dimen>
+
+    <dimen name="notification_shrinked_button">36dp</dimen>
+    <dimen name="notification_expanded_button">42dp</dimen>
+
+    <dimen name="header_height">200dp</dimen>
+    <dimen name="min_header_height">250dp</dimen>
+    <dimen name="header_logo_size">100dp</dimen>
+    <dimen name="tabs_strip_shadow_dim">5dp</dimen>
+    <dimen name="total_toolbar_height">6dp</dimen>
+
+    <dimen name="drawer_header_height">150dp</dimen>
+    <dimen name="toolbar_height">?android:attr/actionBarSize</dimen>
+
+    <dimen name="context_menu_width">160dp</dimen>
+
+</resources>

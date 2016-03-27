@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <com.gc.materialdesign.views.ProgressBarCircularIndeterminate
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorAccent"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/loading_spinner"/>
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/artist_songs_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+</FrameLayout><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/layout_recycler_artist_songs.xml -->

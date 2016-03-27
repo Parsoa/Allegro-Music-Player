@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:fromAlpha="1.0"
+	android:toAlpha="0.0"
+	android:duration="400" />
+<!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/anim/fade_out_exit.xml -->

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notif_root"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:gravity="center_vertical"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="@dimen/notification_expanded_artwork"
+        android:layout_height="@dimen/notification_expanded_artwork"
+        android:id="@+id/artwork_container"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="0dp"
+            >
+
+            <TextView
+                android:id="@+id/big_text"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/notification_expanded_textsize_big"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/small_text"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:lines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/notification_expanded_textsize_small"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/previous_button"
+                android:layout_width="@dimen/notification_expanded_button"
+                android:layout_height="@dimen/notification_expanded_button" />
+
+            <Button
+                android:id="@+id/play_pause_button"
+                android:layout_width="@dimen/notification_expanded_button"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="@dimen/notification_expanded_button" />
+
+            <Button
+                android:id="@+id/next_button"
+                android:layout_width="@dimen/notification_expanded_button"
+                android:layout_height="@dimen/notification_expanded_button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="top"
+        android:layout_width="@dimen/notification_close_button"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/close_button"
+            android:layout_width="@dimen/notification_close_button"
+            android:layout_height="@dimen/notification_close_button" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

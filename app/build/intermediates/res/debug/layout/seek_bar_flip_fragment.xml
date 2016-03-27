@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@+id/now_playing_info"
+    android:id="@+id/now_playing_album_art_layout">
+
+    <ImageSwitcher
+        android:id="@+id/now_playing_album_art"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp">
+    </ImageSwitcher>
+
+    <com.devadvance.circularseekbar.CircularSeekBar
+        android:elevation="2dp"
+        android:id="@+id/circular_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        app:circle_progress_color="@color/colorAccent"
+        app:pointer_color="@color/colorAccent"
+        android:layout_gravity="center_vertical|center_horizontal" />
+
+</FrameLayout><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/seek_bar_flip_fragment.xml -->

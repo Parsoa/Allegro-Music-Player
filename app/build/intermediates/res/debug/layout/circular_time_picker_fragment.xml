@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="270dp"
+    android:layout_height="340dp">
+
+    <com.devadvance.circularseekbar.CircularSeekBar
+        android:id="@+id/circular_time_picker"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:circle_progress_color="@color/colorAccent"
+        app:start_angle="150"
+        app:end_angle="30"
+        app:pointer_color="@color/colorAccent"
+        android:layout_gravity="top|center_horizontal" />
+
+    <TextView
+        android:id="@+id/time_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textSize="24sp" />
+
+    <com.gc.materialdesign.views.ButtonFloat
+        android:id="@+id/done_button_float"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/holo_blue_bright"
+        materialdesign:animate="false"
+        materialdesign:iconDrawable="@drawable/ic_done_white_48dp"/>
+
+</FrameLayout><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/circular_time_picker_fragment.xml -->

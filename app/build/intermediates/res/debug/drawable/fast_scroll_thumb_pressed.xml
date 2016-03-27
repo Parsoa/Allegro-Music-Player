@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <gradient
+        android:angle="45"
+        android:endColor="@color/accent_material_light"
+        android:centerColor="@color/colorAccent"
+        android:startColor="@color/accent_material_light" />
+
+    <corners android:radius="8dp" />
+
+    <size
+        android:height="24dp"
+        android:width="8dp"/>
+    <padding
+        android:left="0.5dp"
+        android:right="0.5dp" />
+
+</shape><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/drawable/fast_scroll_thumb_pressed.xml -->

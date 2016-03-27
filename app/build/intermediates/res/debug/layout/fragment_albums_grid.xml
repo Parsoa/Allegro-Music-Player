@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_albums_grid"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:divider="@color/colorPrimaryDark"
+    android:dividerHeight="1px"
+    android:numColumns="2" />
+
+<!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/fragment_albums_grid.xml -->

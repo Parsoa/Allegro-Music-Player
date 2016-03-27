@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:id="@+id/notif_root"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/artwork_container"
+        android:layout_width="@dimen/notification_shrinked_artwork"
+        android:layout_height="@dimen/notification_shrinked_artwork"
+        android:layout_margin="2dp"
+         />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/big_text"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/notification_compact_textsize_big"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/small_text"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/notification_compact_textsize_small"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    
+    <Button
+        android:id="@+id/play_pause_button"
+        android:layout_marginRight="8dp"
+        android:layout_width="@dimen/notification_shrinked_button"
+        android:layout_height="@dimen/notification_shrinked_button" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/close_button"
+            android:layout_width="@dimen/notification_close_button"
+            android:layout_height="@dimen/notification_close_button" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/notification.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ic_play_circle_filled_black_48dp" />
+    <item android:state_focused="true"
+        android:drawable="@drawable/ic_play_circle_filled_black_48dp" />
+    <item android:drawable="@drawable/ic_play_circle_filled_white_48dp" />
+</selector><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/drawable/widget_play_button_drawable.xml -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:minHeight="40sp"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textview_name"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="8sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/Users/Parsoa/Desktop/Projects/Allegro/allegro/app/src/main/res/layout/drawer_playlists_item.xml -->
